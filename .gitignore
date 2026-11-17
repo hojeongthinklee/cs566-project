@@ -1,3 +1,36 @@
+# Publish only: the GraphMem method code, the official Whareformer scoring code, the results, and the project page.
+# Everything else in this workspace (data, experiments, notes, logs, other tools) stays local.
+
+/*
+!/.gitignore
+!/README.md
+!/docs/
+!/results/
+!/src/
+
+/src/*
+!/src/whareformer_eval/
+!/src/analysis/
+/src/analysis/*
+!/src/analysis/milestones/
+/src/analysis/milestones/*
+!/src/analysis/milestones/m3/
+/src/analysis/milestones/m3/*
+!/src/analysis/milestones/m3/README.md
+!/src/analysis/milestones/m3/requirements.txt
+!/src/analysis/milestones/m3/graphmem2.py
+!/src/analysis/milestones/m3/graphmem_tracker.py
+!/src/analysis/milestones/m3/wf_common.py
+!/src/analysis/milestones/m3/ow_comb.py
+!/src/analysis/milestones/m3/ow_fs.py
+!/src/analysis/milestones/m3/sp_common.py
+!/src/analysis/milestones/m3/sp_posegraph.py
+!/src/analysis/milestones/m3/sp_relembed.py
+!/src/analysis/milestones/m3/lo_0.9.pkl
+!/src/analysis/milestones/m3/graph_train_vids.txt
+!/src/analysis/milestones/m3/ow_all_vids.txt
+
+# never commit, wherever they appear
 .DS_Store
 ._*
 __pycache__/
